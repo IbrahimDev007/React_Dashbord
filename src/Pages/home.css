@@ -1,0 +1,25 @@
+.home {
+	display: flex;
+	flex: 4;
+	background-color: lightskyblue;
+	flex-direction: column;
+}
+
+.homwWidget{
+	display: flex;
+	margin: 20px;
+
+}
+.chart1{
+	width: 100%;
+	display: flex;
+	
+}
+.demo{
+	display: flex;
+	padding: 20px;
+}
+.next{
+	display: flex;
+	margin: 30px;
+}

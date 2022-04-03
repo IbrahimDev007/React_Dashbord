@@ -1,0 +1,44 @@
+.fetureInfo {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	width:100%;
+   height: min-content;
+}
+.fetureditem {
+	flex: 1;
+	margin: 0px 20px;
+	padding: 30px;
+	box-shadow: 2px 8px 16px 3px rgba(0, 0, 0, 0.17);
+	-webkit-box-shadow: 2px 8px 16px 3px rgba(0, 0, 0, 0.17);
+	-moz-box-shadow: 2px 8px 16px 3px rgba(0, 0, 0, 0.17);
+	cursor: pointer;
+}
+.feturedTitle {
+	font-size: 20px;
+}
+.Moneycontainer {
+	margin: 10px 0px;
+	display: flex;
+	align-items: center;
+}
+.feturedeMone {
+	font-size: 30px;
+	font-weight: 600;
+}
+.feturedeMoneRate {
+	align-items: center;
+	display: flex;
+	margin-left: 20px;
+}
+.feturedicon {
+	font-size: 14px;
+	color: green;
+}
+.feturedicon.nagative {
+	color: red;
+}
+.feturesub{
+font-size: 14px;
+color: #555;
+}

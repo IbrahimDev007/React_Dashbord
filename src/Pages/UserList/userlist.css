@@ -1,0 +1,35 @@
+.userList {
+	display: flex;
+	flex: 4;
+}
+.dataTable {
+	height: 400px;
+	width: 100%;
+}
+
+.userImg {
+	height: 30px;
+	width: 30px;
+	object-fit: cover;
+	border-radius: 50%;
+    margin-right: 20px;
+
+}
+.userImgContainer {
+	display: flex;
+	justify-content:space-between;
+	direction: row;
+	align-items: center;
+
+}
+.userListedit{
+	border: none;
+	border-radius: 10px;
+	margin: 10px;
+	background-color:green;
+	cursor: pointer;
+	align-items: center;
+	justify-content: space-between;
+
+	
+}

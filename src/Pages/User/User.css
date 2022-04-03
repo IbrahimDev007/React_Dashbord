@@ -1,0 +1,109 @@
+.user{ 
+    flex:4;
+    padding: 20px;
+}
+.userContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+ .userTitle{
+    font-size: 16px;
+ 
+ }
+ .userShowImg{
+     height: 40px;
+     width: 40px;
+     border-radius: 50%;
+     object-fit: cover;
+ }
+ .userShowTop{
+     display: flex;
+     align-items: center;
+     
+  
+ }
+
+.userAddButton{
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(8, 95, 8, 0.781);
+    cursor: pointer;
+    width: 80px;
+    padding: 5px;
+}
+.userContainer{
+    display: flex;
+}
+.userShow{
+  flex: 1;
+    box-shadow: 2px 8px 16px 3px rgba(0, 0, 0, 0.17);
+	-webkit-box-shadow: 2px 8px 16px 3px rgba(0, 0, 0, 0.17);
+	-moz-box-shadow: 2px 8px 16px 3px rgba(0, 0, 0, 0.17);
+	cursor: pointer;
+    padding: 20px;
+    margin-right: 20px;
+}
+.userUpdate{
+    flex: 2;
+      box-shadow: 2px 8px 16px 3px rgba(0, 0, 0, 0.17);
+      -webkit-box-shadow: 2px 8px 16px 3px rgba(0, 0, 0, 0.17);
+      -moz-box-shadow: 2px 8px 16px 3px rgba(0, 0, 0, 0.17);
+      cursor: pointer;
+      padding: 20px;
+  }
+  .ShowTopTitle{
+      display: flex;   
+      align-items: center;
+      flex-direction: column;
+      
+  }
+  .userUpdateForm{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .userShowBottom{
+    display: flex;   
+  
+    flex-direction: column;
+  }
+  .userShowInfo{
+      display: flex;
+      flex-direction: row;
+      align-items: right;
+  }
+  .updateImg{
+      width: 100px;
+      height: 100px;
+      border-radius: 12px;
+      object-fit: cover;
+      margin: 20px;
+  }
+  .useUpdateitem{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 5px;
+
+  }
+  .userUpdateTitle{
+      font-weight:800;
+      margin-bottom: 5px;
+      font-size: 20px;
+
+  }
+  .userUpdateButton{
+      border-radius: 5px;
+      border: none;
+      padding: 5px;
+      cursor: pointer;
+      background-color: chocolate;
+      color:cornsilk;
+      font-weight: 600;
+  }
+  .userupdateRight{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }

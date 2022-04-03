@@ -1,0 +1,23 @@
+.newUser{
+    flex: 4;
+
+}
+.newuserForm{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.newUserItem{
+   width: 400px;
+   display: flex;
+   flex-direction: column;
+   margin-top: 10px;
+   margin-right: 20px;
+} 
+.newUserButton{
+    width: 200px;
+    border: none;
+    background-color: cadetblue;
+   cursor: pointer;
+    border-radius: 10px;
+}
